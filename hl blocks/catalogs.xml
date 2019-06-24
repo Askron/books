@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>1</id>
+		<name>Catalogs</name>
+		<table_name>catalogs</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>1</id>
+			<lid>ru</lid>
+			<name>Каталоги</name>
+		</lang>
+		<lang>
+			<id>1</id>
+			<lid>en</lid>
+			<name>Catalogs</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>1</id>
+			<entity_id>HLBLOCK_1</entity_id>
+			<field_name>UF_NAME</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>UF_NAME</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en>Name</en>
+				<ru>Название</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en>Name</en>
+				<ru>Название</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en>Name</en>
+				<ru>Название</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en>Name</en>
+				<ru>Название</ru>
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_name>Классика</uf_name>
+		</item>
+		<item>
+			<id>2</id>
+			<uf_name>Детективы</uf_name>
+		</item>
+		<item>
+			<id>3</id>
+			<uf_name>Романы</uf_name>
+		</item>
+		<item>
+			<id>4</id>
+			<uf_name>Фантастика</uf_name>
+		</item>
+	</items>
+</hiblock>

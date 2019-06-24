@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>2</id>
+		<name>Books</name>
+		<table_name>books</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>2</id>
+			<lid>ru</lid>
+			<name>Книги</name>
+		</lang>
+		<lang>
+			<id>2</id>
+			<lid>en</lid>
+			<name>Books</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>2</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_NAME</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>UF_NAME</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en>Name</en>
+				<ru>Название</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en>Name</en>
+				<ru>Название</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en>Name</en>
+				<ru>Название</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en>Name</en>
+				<ru>Название</ru>
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>3</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_AUTHOR</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>UF_AUTHOR</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en>Author</en>
+				<ru>Автор</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en>Author</en>
+				<ru>Автор</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en>Author</en>
+				<ru>Автор</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en>Author</en>
+				<ru>Автор</ru>
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>4</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_CATALOG_ID</field_name>
+			<user_type_id>hlblock</user_type_id>
+			<xml_id>UF_CATALOG_ID</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<display>LIST</display>
+				<list_height>5</list_height>
+				<hlblock_id>1</hlblock_id>
+				<hlfield_id>1</hlfield_id>
+				<default_value>0</default_value>
+				<hlblock_table>catalogs</hlblock_table>
+			</settings>
+			<edit_form_label>
+				<en>Каталог</en>
+				<ru>Каталог</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en>Каталог</en>
+				<ru>Каталог</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en>Каталог</en>
+				<ru>Каталог</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en>Каталог</en>
+				<ru>Каталог</ru>
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_name>Преступление и наказание</uf_name>
+			<uf_author>Достоевский</uf_author>
+			<uf_catalog_id>1</uf_catalog_id>
+		</item>
+		<item>
+			<id>2</id>
+			<uf_name>Лунный камень</uf_name>
+			<uf_author>Коллинз</uf_author>
+			<uf_catalog_id>2</uf_catalog_id>
+		</item>
+		<item>
+			<id>3</id>
+			<uf_name>Рассказы о Шерлоке Холмсе</uf_name>
+			<uf_author>Конан Дойл</uf_author>
+			<uf_catalog_id>2</uf_catalog_id>
+		</item>
+		<item>
+			<id>4</id>
+			<uf_name>Шантарам</uf_name>
+			<uf_author>Робертс</uf_author>
+			<uf_catalog_id>3</uf_catalog_id>
+		</item>
+		<item>
+			<id>5</id>
+			<uf_name>Властелин колец</uf_name>
+			<uf_author>Толкин</uf_author>
+			<uf_catalog_id>4</uf_catalog_id>
+		</item>
+		<item>
+			<id>6</id>
+			<uf_name>Противостояние</uf_name>
+			<uf_author>Кинг</uf_author>
+			<uf_catalog_id>4</uf_catalog_id>
+		</item>
+		<item>
+			<id>7</id>
+			<uf_name>Война и мир</uf_name>
+			<uf_author>Толстой</uf_author>
+			<uf_catalog_id>1</uf_catalog_id>
+		</item>
+		<item>
+			<id>8</id>
+			<uf_name>Герой нашего времени</uf_name>
+			<uf_author>Лермонтов</uf_author>
+			<uf_catalog_id>1</uf_catalog_id>
+		</item>
+		<item>
+			<id>9</id>
+			<uf_name>Война миров</uf_name>
+			<uf_author>Уэллс</uf_author>
+			<uf_catalog_id>3</uf_catalog_id>
+		</item>
+		<item>
+			<id>10</id>
+			<uf_name>Гарри Поттер и тайная комната</uf_name>
+			<uf_author>Роулинг</uf_author>
+			<uf_catalog_id>4</uf_catalog_id>
+		</item>
+		<item>
+			<id>11</id>
+			<uf_name>Портрет Дориана Грея</uf_name>
+			<uf_author>Уайльд</uf_author>
+			<uf_catalog_id>1</uf_catalog_id>
+		</item>
+	</items>
+</hiblock>
